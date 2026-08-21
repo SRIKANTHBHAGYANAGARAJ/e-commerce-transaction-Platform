@@ -1,4 +1,4 @@
-# Bhusan Mart – React E-Commerce Application
+# Croma Mart – React E-Commerce Application
 
 Bhusan Mart is a **modern React-based e-commerce web application** that demonstrates real-world shopping cart functionality, global state management, product filtering, authentication flow, and a polished user interface.
 
