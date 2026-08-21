@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../contexts/AuthContext";
 import { useNavigate, Link } from "react-router-dom";
 import { FaEnvelope, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
+import { BsCart } from "react-icons/bs";
 import { toast } from "react-toastify";
 
 const Signin = () => {
@@ -20,7 +21,6 @@ const Signin = () => {
     password: "",
   });
 
-  // Loads saved email if "Remember me" was previously enabled
   useEffect(() => {
     const savedEmail = localStorage.getItem("rememberEmail");
     if (savedEmail) {
@@ -66,13 +66,27 @@ const Signin = () => {
 
       <div className="relative z-10 w-full max-w-md">
         <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-8 shadow-2xl">
+          {/* ===== SHOPPING CART LOGO ===== */}
           <div className="flex justify-center mb-4">
-            <img
-              src="/image/logo.png"
-              alt="Croma Mart"
-              className="w-20 h-20 rounded-full shadow-lg"
-            />
+            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-cyan-500/20 to-purple-500/20 border-2 border-cyan-400/30 flex items-center justify-center shadow-lg relative group animate-pulse-glow">
+              {/* Rotating ring */}
+              <div className="absolute inset-[-4px] rounded-full border-2 border-transparent border-t-cyan-400/50 border-r-purple-400/50 animate-spin-slow" />
+              {/* Second ring - opposite direction */}
+              <div className="absolute inset-[-8px] rounded-full border-2 border-transparent border-b-cyan-400/30 border-l-purple-400/30 animate-spin-medium opacity-70" />
+              {/* Third ring - fast spin */}
+              <div className="absolute inset-[-12px] rounded-full border border-cyan-400/10 animate-spin-fast opacity-50" />
+
+              {/* Shopping Cart Icon */}
+              <BsCart className="text-3xl text-white relative z-10 group-hover:text-cyan-300 transition-all duration-500" />
+
+              {/* Glow dots around the circle */}
+              <div className="absolute -top-1 -right-1 w-2 h-2 bg-cyan-400 rounded-full animate-ping" />
+              <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-purple-400 rounded-full animate-ping delay-300" />
+              <div className="absolute top-1/2 -right-1 w-1.5 h-1.5 bg-cyan-300 rounded-full animate-ping delay-500" />
+              <div className="absolute top-1/2 -left-1 w-1.5 h-1.5 bg-purple-300 rounded-full animate-ping delay-700" />
+            </div>
           </div>
+          {/* ===== END SHOPPING CART LOGO ===== */}
 
           <h2 className="text-3xl font-semibold text-center text-white">
             Welcome Back
@@ -104,7 +118,7 @@ const Signin = () => {
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
-                className="w-full pl-11 pr-4 py-3 rounded-xl bg-black/40 text-white border border-white/10 outline-none"
+                className="w-full pl-11 pr-4 py-3 rounded-xl bg-black/40 text-white border border-white/10 outline-none focus:border-cyan-400 transition-all duration-300"
               />
             </div>
 
@@ -117,12 +131,12 @@ const Signin = () => {
                 onChange={(e) =>
                   setFormData({ ...formData, password: e.target.value })
                 }
-                className="w-full pl-11 pr-12 py-3 rounded-xl bg-black/40 text-white border border-white/10 outline-none"
+                className="w-full pl-11 pr-12 py-3 rounded-xl bg-black/40 text-white border border-white/10 outline-none focus:border-cyan-400 transition-all duration-300"
               />
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-white/40"
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-white/40 hover:text-cyan-400 transition"
               >
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </button>
@@ -151,9 +165,9 @@ const Signin = () => {
             <button
               type="submit"
               disabled={!isFormValid || loading}
-              className={`w-full py-3 rounded-xl font-semibold ${
+              className={`w-full py-3 rounded-xl font-semibold transition-all duration-300 ${
                 isFormValid
-                  ? "bg-gradient-to-r from-cyan-400 to-blue-500 text-black"
+                  ? "bg-gradient-to-r from-cyan-400 to-blue-500 text-black hover:shadow-lg hover:shadow-cyan-500/30 hover:scale-[1.02]"
                   : "bg-white/10 text-white/40 cursor-not-allowed"
               } ${pressed ? "scale-95" : ""}`}
             >
@@ -163,7 +177,10 @@ const Signin = () => {
 
           <p className="text-sm text-center text-white/70 mt-6">
             Don't have an account?{" "}
-            <Link to="/signup" className="text-cyan-400 hover:underline">
+            <Link
+              to="/signup"
+              className="text-cyan-400 hover:underline transition-all duration-300 hover:text-cyan-300"
+            >
               Sign Up
             </Link>
           </p>
@@ -177,12 +194,12 @@ const Signin = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full px-4 py-2 rounded-lg bg-black/40 text-white border border-white/10 mb-4"
+              className="w-full px-4 py-2 rounded-lg bg-black/40 text-white border border-white/10 mb-4 focus:border-cyan-400 transition-all duration-300"
             />
             <div className="flex justify-end gap-3">
               <button
                 onClick={() => setShowForgot(false)}
-                className="text-white/60 hover:text-white"
+                className="text-white/60 hover:text-white transition"
               >
                 Cancel
               </button>
@@ -191,7 +208,7 @@ const Signin = () => {
                   toast.info("Password reset link sent 📩");
                   setShowForgot(false);
                 }}
-                className="bg-cyan-400 text-black px-4 py-2 rounded-lg"
+                className="bg-cyan-400 text-black px-4 py-2 rounded-lg hover:bg-cyan-300 transition-all duration-300"
               >
                 Send
               </button>

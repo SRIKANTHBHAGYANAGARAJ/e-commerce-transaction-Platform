@@ -3,7 +3,7 @@ import { SidebarContext } from "../contexts/SidebarContext";
 import { CartContext } from "../contexts/CartContext";
 import { AuthContext } from "../contexts/AuthContext";
 import { Link } from "react-router-dom";
-import { BsBag } from "react-icons/bs";
+import { BsBag, BsCart } from "react-icons/bs";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -12,7 +12,6 @@ const Header = () => {
   const { itemAmount } = useContext(CartContext);
   const { user, logout } = useContext(AuthContext);
 
-  // Change header style after scrolling
   useEffect(() => {
     const handleScroll = () => {
       setIsActive(window.scrollY > 60);
@@ -35,24 +34,23 @@ const Header = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent animate-shimmer" />
       </div>
 
-      {/* Animated glow background - left to right */}
+      {/* Animated glow background */}
       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 via-purple-500/5 to-pink-500/5 blur-[80px] animate-shimmer-slow" />
       </div>
 
       <div className="container mx-auto flex items-center justify-between h-full relative z-10">
-        {/* Brand logo - CM with glow */}
+        {/* Logo - Shopping Cart Icon */}
         <Link to="/">
           <div className="w-[70px] h-[70px] croma-mart flex items-center justify-center relative group">
             {/* Rotating ring around logo */}
             <div className="absolute inset-[-4px] rounded-full border-2 border-transparent border-t-cyan-400/30 border-r-purple-400/30 animate-spin-slow" />
 
-            {/* Second ring - opposite direction */}
+            {/* Second ring */}
             <div className="absolute inset-[-8px] rounded-full border-2 border-transparent border-b-cyan-400/20 border-l-purple-400/20 animate-spin-medium opacity-50" />
 
-            <span className="text-2xl font-bold text-white tracking-wider group-hover:text-cyan-300 transition-all duration-500 relative z-10">
-              CM
-            </span>
+            {/* Shopping Cart Icon */}
+            <BsCart className="text-2xl text-white group-hover:text-cyan-300 transition-all duration-500 relative z-10" />
 
             {/* Hover glow effect */}
             <div className="absolute inset-[-12px] rounded-full bg-gradient-to-r from-cyan-500/0 via-cyan-500/10 to-purple-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />
@@ -60,7 +58,7 @@ const Header = () => {
         </Link>
 
         <div className="flex items-center gap-6">
-          {/* Auth actions (desktop only) */}
+          {/* Auth actions */}
           <div className="flex items-center gap-4">
             {user ? (
               <>
