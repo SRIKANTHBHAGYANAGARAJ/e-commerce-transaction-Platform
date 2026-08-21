@@ -180,5 +180,5 @@ npm run preview
 **Biswabhusan Mohapatra**  
 Aspiring Developer & React Enthusiast  
 
- Email: `iambiswabhusan0@gmail.com`  
-🔗 LinkedIn: [Biswabhusan Mohapatra](https://www.linkedin.com/in/biswabhusanmohapatra)
+ Email: `srikanthbhagyanagaraj@gmail.com`  
+🔗 
