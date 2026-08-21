@@ -1,4 +1,4 @@
-# Bhusan Mart – React E-Commerce Application
+# Croma Mart – React E-Commerce Application
 
 Bhusan Mart is a **modern React-based e-commerce web application** that demonstrates real-world shopping cart functionality, global state management, product filtering, authentication flow, and a polished user interface.
 
@@ -8,7 +8,7 @@ The project is built with a focus on **clean architecture, reusable components, 
 ## Live Demo
 
 **Website:** https://bhusan-mart.vercel.app/  
-**GitHub Repository:** https://github.com/IAmBiswabhusan/E-COMMERCE-WEBSITE-React
+**GitHub Repository:** [https://github.com/IAmBiswabhusan/E-COMMERCE-WEBSITE-React](https://github.com/SRIKANTHBHAGYANAGARAJ/e-commerce-transaction-Platform.git)
 
 ## Screenshots
 
@@ -180,5 +180,5 @@ npm run preview
 **Biswabhusan Mohapatra**  
 Aspiring Developer & React Enthusiast  
 
- Email: `iambiswabhusan0@gmail.com`  
-🔗 LinkedIn: [Biswabhusan Mohapatra](https://www.linkedin.com/in/biswabhusanmohapatra)
+ Email: `srikanthbhagyanagaraj@gmail.com`  
+🔗 
