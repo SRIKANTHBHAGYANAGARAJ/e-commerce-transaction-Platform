@@ -31,15 +31,22 @@ The project is built with a focus on **clean architecture, reusable components, 
 
 ### Add To Cart Page
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2858d369-7213-4141-a53f-4bdc9ddbe6ae" />
+<img width="625" height="287" alt="Add To Cart Page" src="https://github.com/user-attachments/assets/553c9127-1ee1-4294-954a-7a981c743fce" />
+
 
 ### Why Choose Croma Mart Section
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f25261f3-46ed-4257-842c-5d712997132d" />
+<img width="1869" height="808" alt="Why Choose Croma Mart Section" src="https://github.com/user-attachments/assets/f0337f5a-1e66-4453-9eeb-e7f6e45dd083" />
+
 
 ### Contact Us Section
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/62f713eb-189b-4128-b21a-1e306d87a258" />
+<img width="1126" height="746" alt="Contact Us Section" src="https://github.com/user-attachments/assets/03643bec-40d8-4aa6-ac7c-f3927a335107" />
+
+### Dashboard data imported from Snowflake integration.
+
+<img width="1151" height="652" alt="Power Bi Dashboard" src="https://github.com/user-attachments/assets/fed2bce8-1556-46af-b9a6-df3f303a7474" />
+
 
 
 ## Features
