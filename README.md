@@ -7,7 +7,7 @@ The project is built with a focus on **clean architecture, reusable components, 
 ---
 ## Live Demo
 
-**Website:** https://croma-mart.netlify.app/
+
 
 ## Screenshots
 
@@ -32,9 +32,6 @@ The project is built with a focus on **clean architecture, reusable components, 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2858d369-7213-4141-a53f-4bdc9ddbe6ae" />
 
 
-### View Product Details Page
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8bd1512-24de-452a-b40a-014110d9e000" />
 
 
 ### Why Choose Bhusan Mart Section
