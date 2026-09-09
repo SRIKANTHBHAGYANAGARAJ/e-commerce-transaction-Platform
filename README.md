@@ -26,7 +26,8 @@ The project is built with a focus on **clean architecture, reusable components, 
 
 ### Filtering Product Based on Category or Price
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0722f39b-03e8-41bf-afbf-fc91fdedd0cb" />
+<img width="932" height="403" alt="Filtering Product Based on Category or Price" src="https://github.com/user-attachments/assets/a94c56f1-7303-4039-a136-306265ddb57d" />
+
 
 ### Add To Cart Page
 
