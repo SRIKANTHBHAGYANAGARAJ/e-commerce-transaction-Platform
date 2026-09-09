@@ -1,3 +1,4 @@
+<img width="1917" height="922" alt="Home page" src="https://github.com/user-attachments/assets/13f63f58-1597-4030-8b45-64461aff7492" />
 # Croma Mart – React E-Commerce Application
 
 Croma Mart is a **modern React-based e-commerce web application** that demonstrates real-world shopping cart functionality, global state management, product filtering, authentication flow, and a polished user interface.
