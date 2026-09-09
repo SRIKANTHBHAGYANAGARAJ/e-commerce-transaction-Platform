@@ -13,6 +13,7 @@ The project is built with a focus on **clean architecture, reusable components, 
 
 ### Home Page
 <img width="1917" height="922" alt="Home page" src="https://github.com/user-attachments/assets/13f63f58-1597-4030-8b45-64461aff7492" />
+
 ### Sign In Page
 
 <img width="1920" height="1080" alt="Screenshot (1318)" src="https://github.com/user-attachments/assets/d0a888a4-4455-4ae9-a438-35d202911452" />
