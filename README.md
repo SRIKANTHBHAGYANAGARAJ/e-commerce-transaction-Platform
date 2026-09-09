@@ -21,7 +21,7 @@ The project is built with a focus on **clean architecture, reusable components, 
 
 ### Explore Product Section
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d524bace-5f5e-46ce-a805-b30775640497" />
+<img width="957" height="413" alt="Explore Product Section" src="https://github.com/user-attachments/assets/170a608b-7737-4362-a467-4295cd3857bc" />
 
 
 ### Filtering Product Based on Category or Price
