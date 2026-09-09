@@ -166,7 +166,7 @@ npm run preview
 
 ##  Author
 
-**Biswabhusan Mohapatra**  
+**Srikanth BN**  
 Aspiring Developer & React Enthusiast  
 
  Email: `srikanthbhagyanagaraj@gmail.com`  
