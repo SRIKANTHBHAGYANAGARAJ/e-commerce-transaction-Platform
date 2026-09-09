@@ -130,7 +130,7 @@ src/
 
 ###  Clone the Repository
 ```bash
-git clone https://github.com/IAmBiswabhusan/E-COMMERCE-WEBSITE-React.git
+git clone(https://github.com/SRIKANTHBHAGYANAGARAJ/e-commerce-transaction-Platform.git)
 cd E-COMMERCE-WEBSITE-React
 ```
 
