@@ -31,20 +31,13 @@ The project is built with a focus on **clean architecture, reusable components, 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2858d369-7213-4141-a53f-4bdc9ddbe6ae" />
 
-
-
-
-### Why Choose Bhusan Mart Section
+### Why Choose Croma Mart Section
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f25261f3-46ed-4257-842c-5d712997132d" />
 
 ### Contact Us Section
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/62f713eb-189b-4128-b21a-1e306d87a258" />
-
-### Footer Section 
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3bff0f93-559b-49b2-b507-c62e72e956be" />
 
 
 ## Features
